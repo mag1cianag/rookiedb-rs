@@ -1,3 +1,6 @@
+use std::path::Path;
+
 fn main() {
-    println!("Hello, world!");
+    let path = Path::new("/tmp/foo/bar.txt");
+    let components = path.components().collect::<Vec<_>>();
 }
