@@ -1,0 +1,11 @@
+[package]
+name = "rsdb"
+version = "0.1.0"
+edition = "2021"
+authors = ["mag1cianag <mag1cian@aliyun.com>"]
+description = "ucb cs186 rookieDB rust version"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = {version = "3.0.14",features = ["derive"]}
