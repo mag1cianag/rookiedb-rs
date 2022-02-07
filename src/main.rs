@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 use clap::Parser;
 use std::io::{self, Write};
 
